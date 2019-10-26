@@ -76,7 +76,7 @@ Here is a picture of some of the items in the DynamoDB table. The three pieces o
 
 **lambdaReadS3ImageToDynamoDB:**
 
-![](screenshots/lambda_read_s3_image_to_dynamo.PNG)
+![](screenshots/lambda_read_s3_image_to_dynamo_db.PNG)
 
 Here is the full code for the function.
 
