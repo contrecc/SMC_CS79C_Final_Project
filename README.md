@@ -8,7 +8,7 @@ It&#39;s a static website hosted from an S3 bucket that shows a picture of a tur
 
 I created a bucket to store the static website files.
 
-**Index.html** – This is the main HTML page.
+**index.html** – This is the main HTML page.
 
 **main.js** – This is the main JavaScript file. It contains two functions:
 
@@ -54,7 +54,7 @@ After all is said and done, I put together a website that dynamically calls AWS 
 
 **Website: Main Page**
 
-![](screenshots/main_page.png)
+![](screenshots/main_page.PNG)
 
 This is the main page. It shows the number of turtles in the database (this is calculated when the page loads) as well as the turtle&#39;s name. In this case, it is just the homepage turtle.
 
@@ -64,40 +64,40 @@ Here is the website after clicking the picture of the turtle. The name has updat
 
 **S3 Bucket:**
 
-![](screenshots/s3.png)
+![](screenshots/s3.PNG)
 
 Here is the S3 bucket page showing some of the files stored there.
 
 **DynamoDB:**
 
-![](screenshots/dynamo_db.png)
+![](screenshots/dynamo_db.PNG)
 
 Here is a picture of some of the items in the DynamoDB table. The three pieces of data it holds are a picture&#39;s URL, id, and name.
 
 **lambdaReadS3ImageToDynamoDB:**
 
-![](screenshots/lambda_read_s3_image_to_dynamo.png)
+![](screenshots/lambda_read_s3_image_to_dynamo.PNG)
 
 Here is the full code for the function.
 
 **lambdaDynamoRead:**
 
-![](screenshots/lambda_dynamo_read.png)
+![](screenshots/lambda_dynamo_read.PNG)
 
 Here is the actual code for the lambdaDynamoRead function.
 
 **lambdaReadBucketFile:**
 
-![](screenshots/lambda_read_bucket_file.png)
+![](screenshots/lambda_read_bucket_file.PNG)
 
 Here is the full code for the function.
 
 **HTML and JavaScript code:**
 
-![](screenshots/index_html.png)
+![](screenshots/index_html.PNG)
 
 Here is the HTML for the webpage.
 
-![](screenshots/main_js.png)
+![](screenshots/main_js.PNG)
 
 Here is the JavaScript code.
