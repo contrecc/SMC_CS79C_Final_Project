@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CS79C Final Project -- RANDOM PHOTO TIME!</title>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>RANDOM TURTLE TIME!</h1>
+    <h2>Click the image to fetch a random new turtle!</h2>
+    <h3>
+      There are <span id="turtlecount"></span> turtles on the website to see!
+    </h3>
+    <h4>
+      You're looking at <span id="currentturtle">the homepage turtle</span>.
+      Keep clicking for more turts! (Short for turtles.)
+    </h4>
+    <img
+      id="turtlepic"
+      src="images/mainturtle.jpg"
+      alt="Picture of Turtle"
+      onclick="getNewTurtle();"
+      width="1024"
+      height="768"
+    />
+  </body>
+</html>
